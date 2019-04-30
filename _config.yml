@@ -1,0 +1,66 @@
+# Site settings
+title: Isabella Menezes
+description: "Nutricionista"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Isabella Menezes
+    hero_description: Nutricionista
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: (82) 99987-4593
+    emergency:
+    email: karol_gatinha@yahoo.com
+    address1: Endereço da Clínica Maceió
+    address2: Endereço da Clínica Santana
+
+# Opening hours
+monday_friday: 7:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Von schroeders 273, Viña del mar, Chile
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: 
+instagram: https://www.instagram.com/nutriisabellamenezes/
+youtube: 
+skype: 
+feed: no
+
+# Footer
+copyright: © 2019 Isabella Menezes - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
